@@ -14,11 +14,16 @@
     <title>EasyBank</title>
   </head>
   <body>
-    <nav id="nav" class="navbar navbar-expand navbar-light bg-light bg-white fixed-top py-3">
+    <nav id="nav" class="navbar navbar-expand-md navbar-light bg-light bg-white fixed-top py-3">
       <span class="navbar-brand">
         <img src="images/logo.svg" />
       </span>
-      <div id="menu" class="navbar-nav">
+
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="menu" class="navbar-nav collapse navbar-collapse">
         <a href="#intro" class="nav-link">Intro</a>
         <a href="#why" class="nav-link">Why</a>
         <a href="#articles" class="nav-link">Articles</a>
